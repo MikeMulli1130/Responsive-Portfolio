@@ -61,6 +61,8 @@ body {
     color: #fff;
     background: #fff;
     border-bottom: 2px solid #ccc;
+
+
   }
   
   #logo {
@@ -215,4 +217,24 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+/* The animation code */
+@keyframes example {
+  from {background-color: #fff;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+#masthead {
+  background-color: yellow;
+  animation-name: example;
+  animation-duration: 4s;   
+
+  {
+ @media screen and (980px) }
+
+ {
+  @media screen and (768px) }
   
+  {
+    @media screen and (640px) }
